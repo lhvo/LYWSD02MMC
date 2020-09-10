@@ -17,22 +17,22 @@ Turn the notification on "notify on"
 Check on the "hcidump" terminal - to identify the handle.
   
 > ACL data: handle 64 flags 0x00 dlen 9
->   ATT: Write req (0x12)
->     handle 0x004c value  0x01 0x00
-> ACL data: handle 64 flags 0x02 dlen 5
->   ATT: Write resp (0x13)
-> HCI Event: Number of Completed Packets (0x13) plen 5
->    handle 64 packets 1
+  ATT: Write req (0x12)
+     handle 0x004c value  0x01 0x00
+ ACL data: handle 64 flags 0x02 dlen 5
+   ATT: Write resp (0x13)
+ HCI Event: Number of Completed Packets (0x13) plen 5
+    handle 64 packets 1
 
 In our case we did see that the handle "0x004c" is used.
-# 4 GATTTOOL command:
+# 4- GATTTOOL command
 As a conclusion the gatttool command to be used is :
->    #   gatttool --device=<MAC Addr> --char-write-req -a 0x004c -n 0100  --listen
->Characteristic value was written successfully
->Notification handle = 0x004b value: c3 0a 36
->Notification handle = 0x004b value: c6 0a 36
+> gatttool --device="MAC Addr" --char-write-req -a 0x004c -n 0100  --listen
+Characteristic value was written successfully
+Notification handle = 0x004b value: c3 0a 36
+Notification handle = 0x004b value: c6 0a 36
 
-# 5 Value conversions
+# 5- Value conversions
 >The temperature is c3 0a (little endian) => 0x0aC3(hexa) is 2755 (decimal) => 27°55 Celcius
 >The Humidity is 36 => 0x36(hexa) is 54(decimal) => 54% humidity.
   
