@@ -15,6 +15,7 @@ A list of characteristic will be displayed. Identify the attribute wit the appro
 Run "select-attribute /org/bluez/hci0/dev_E7_2E_00_80_99_07/service003c/char004a" 
 Turn the notification on "notify on"
 Check on the "hcidump" terminal - to identify the handle.
+  
 > ACL data: handle 64 flags 0x00 dlen 9
 >   ATT: Write req (0x12)
 >     handle 0x004c value  0x01 0x00
@@ -22,6 +23,7 @@ Check on the "hcidump" terminal - to identify the handle.
 >   ATT: Write resp (0x13)
 > HCI Event: Number of Completed Packets (0x13) plen 5
 >    handle 64 packets 1
+
 In our case we did see that the handle "0x004c" is used.
 # 4 GATTTOOL command:
 As a conclusion the gatttool command to be used is :
