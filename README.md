@@ -23,6 +23,7 @@ Check on the "hcidump" terminal - to identify the handle.
    ATT: Write resp (0x13)  
  HCI Event: Number of Completed Packets (0x13) plen 5  
     handle 64 packets 1  
+
 In our case we did see that the handle "0x004c" is used.
 # 4- GATTTOOL command
 As a conclusion the gatttool command to be used is :
