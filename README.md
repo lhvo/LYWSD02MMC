@@ -13,7 +13,9 @@ Run "scan on" to detect and identify the MAC of the devices
 Run "connect <MAC Addr>" to connect to the device. 
 A list of characteristic will be displayed. Identify the attribute wit the appropriate UUID (ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6) 
 Run "select-attribute /org/bluez/hci0/dev_E7_2E_00_80_99_07/service003c/char004a" 
+  
 Turn the notification on "notify on"  
+
 Check on the "hcidump" terminal - to identify the handle.  
   
 > ACL data: handle 64 flags 0x00 dlen 9  
