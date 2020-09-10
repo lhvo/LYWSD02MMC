@@ -1,7 +1,7 @@
 # LYWSD02MMC
 How to collect Temp and Humidity from XIAOMI clock with out MI HOME account - RASPBERRY PY
 
-# The approach: 
+The approach: 
 # 1- To look for Temperature & Humidity characteristic - Using BLE Scanner.
 With the "Characteristic" can be identified. In the case of LYWSD02MMC the UUID is ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6.
 # 2- On one terminal run the "hcidump -X" to dump the BLE communication.
