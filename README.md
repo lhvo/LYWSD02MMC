@@ -1,7 +1,11 @@
  
 # How to collect Temp and Humidity from XIAOMI clock with out MI HOME account - RASPBERRY PY
 Model LYWSD02MMC
+![LYWSD02MMC](https://user-images.githubusercontent.com/32024959/150021795-dc90d4a5-64a9-40ae-bc4f-82fbd330171d.jpg)
+
 Model LYWSD03MMC
+![LYWSD03MMC](https://user-images.githubusercontent.com/32024959/150021528-b9583cac-ff0a-4df0-8ffa-3ae525ca1bfe.jpg)
+
 
 # GATTTOOL command
 As a conclusion the gatttool command to be used is :
@@ -16,7 +20,6 @@ For the model: LYWSD03MMC
 # Value conversions
 >The temperature is c3 0a (little endian) => 0x0aC3(hexa) is 2755 (decimal) => 27°55 Celcius  
 >The Humidity is 36 => 0x36(hexa) is 54(decimal) => 54% humidity.  
-  
 
 #Some informations about the approach to track and identification of the attributes: 
 1- BLE Characteristic identification
