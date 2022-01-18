@@ -2,11 +2,11 @@
 # How to collect Temp and Humidity from XIAOMI clock with out MI HOME account - RASPBERRY PY
 # LYWSD02MMC
 
-![LYWSD02MMC](https://user-images.githubusercontent.com/32024959/150021795-dc90d4a5-64a9-40ae-bc4f-82fbd330171d.jpg) { width=50% }
+![LYWSD02MMC](https://user-images.githubusercontent.com/32024959/150021795-dc90d4a5-64a9-40ae-bc4f-82fbd330171d.jpg){ width=50}
 
 # LYWSD03MMC
 
-![LYWSD03MMC](https://user-images.githubusercontent.com/32024959/150021528-b9583cac-ff0a-4df0-8ffa-3ae525ca1bfe.jpg =x250)
+![LYWSD03MMC](https://user-images.githubusercontent.com/32024959/150021528-b9583cac-ff0a-4df0-8ffa-3ae525ca1bfe.jpg)
 
 
 # GATTTOOL command
