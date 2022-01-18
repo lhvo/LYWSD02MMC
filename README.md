@@ -34,6 +34,10 @@ Characteristic value was written successfully
 Notification handle = 0x004b value: c3 0a 36  
 Notification handle = 0x004b value: c6 0a 36  
 
+
+For the model:
+gatttool --device="MAC Addr" --char-write-req -a 0x0038 -n 0100  --listen  
+  
 # 5- Value conversions
 >The temperature is c3 0a (little endian) => 0x0aC3(hexa) is 2755 (decimal) => 27°55 Celcius  
 >The Humidity is 36 => 0x36(hexa) is 54(decimal) => 54% humidity.  
