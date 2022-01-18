@@ -1,5 +1,5 @@
  
-# How to collect Temp and Humidity from XIAOMI clock with out MI HOME account - RASPBERRY PY
+# How to collect Temp and Humidity from XIAOMI clock with out MI HOME account - RASPBERRY PI
 # LYWSD02MMC
 
 ![LYWSD02MMC](https://user-images.githubusercontent.com/32024959/150021795-dc90d4a5-64a9-40ae-bc4f-82fbd330171d.jpg)
